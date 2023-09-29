@@ -170,7 +170,25 @@
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 768px) {
+            /* Adjustments for medium screens and above */
+            .hero h1 {
+                font-size: 4rem;
+            }
 
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+
+            .card {
+                max-width: none;
+            }
+
+            .contact-me,
+            .about-me {
+                flex-basis: 48%;
+            }
+        }
       </style>
 </body>
 </html>
